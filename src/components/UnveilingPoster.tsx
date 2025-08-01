@@ -134,6 +134,11 @@ const UnveilingPoster = () => {
             </div>
           </div>
         </div>
+        
+        {/* Credit note */}
+        <div className="absolute bottom-4 right-4 text-xs text-muted-foreground opacity-60">
+          Made by Ndivhuwo Mashau
+        </div>
       </Card>
     </div>
   );
