@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import memorialBackground from "@/assets/memorial-background.jpg";
+import dovesBackground from "@/assets/doves-background.png";
 
 const UnveilingPoster = () => {
   return (
@@ -15,6 +16,17 @@ const UnveilingPoster = () => {
         }}
       >
         <div className="absolute inset-0 bg-card/90 backdrop-blur-[1px]" />
+        
+        {/* Blurred doves background */}
+        <div 
+          className="absolute inset-0 opacity-20 blur-sm"
+          style={{
+            backgroundImage: `url(${dovesBackground})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        />
         
         <div className="relative z-10 flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-8">
           {/* Top/Left side - Photo */}
