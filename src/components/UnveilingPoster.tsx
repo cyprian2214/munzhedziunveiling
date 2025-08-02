@@ -1,9 +1,14 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Button } from "@/components/ui/button";
+import { MapPin } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import memorialBackground from "@/assets/memorial-background.jpg";
 import dovesBackground from "@/assets/doves-background.png";
 
 const UnveilingPoster = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-memorial-light flex items-center justify-center p-2 sm:p-4">
       <Card 
@@ -96,6 +101,18 @@ const UnveilingPoster = () => {
                   <span className="font-semibold text-memorial">Venue:</span>
                   <span className="ml-1 md:ml-2 text-foreground">Stand No. 367, Mashau Thondoni</span>
                 </div>
+              </div>
+              
+              <div className="mt-3">
+                <Button
+                  onClick={() => navigate("/map")}
+                  variant="outline"
+                  size="sm"
+                  className="w-full bg-memorial/10 border-memorial text-memorial hover:bg-memorial hover:text-memorial-foreground"
+                >
+                  <MapPin className="h-4 w-4 mr-2" />
+                  View Location on Map
+                </Button>
               </div>
             </div>
 
