@@ -14,7 +14,6 @@ const FamilyTreePage = () => {
       { name: "Maria Mafuna", type: "parent" },
       { name: "Vhanazwo Mashau", type: "parent" },
       { name: "Lawrence Mashau", type: "parent" },
-      { name: "Rose Ndhlovu", type: "parent" },
       { name: "Azwihangwisi Mufamadi", type: "parent" },
       { name: "Thinawanga Mufamadi", type: "parent" }
     ],
