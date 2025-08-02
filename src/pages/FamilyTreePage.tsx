@@ -10,10 +10,8 @@ const FamilyTreePage = () => {
       { name: "Shadrack Mufamadi", type: "patriarch" }
     ],
     generation2: [
-      { name: "Constance Mashau", type: "parent" },
       { name: "Thomas Mashau", type: "parent" },
       { name: "Maria Mafuna", type: "parent" },
-      { name: "Tshimangadzo Mashau", type: "parent" },
       { name: "Vhanazwo Mashau", type: "parent" },
       { name: "Lawrence Mashau", type: "parent" },
       { name: "Rose Ndhlovu", type: "parent" },
@@ -21,21 +19,21 @@ const FamilyTreePage = () => {
       { name: "Thinawanga Mufamadi", type: "parent" }
     ],
     generation3: [
-      { name: "Bryton Mashau", parent: "Constance Mashau" },
-      { name: "Mukanela Mashau", parent: "Constance Mashau" },
+      { name: "Bryton Mashau", parent: "Thomas Mashau" },
+      { name: "Mukanela Mashau", parent: "Thomas Mashau" },
       { name: "Greg Mashau", parent: "Thomas Mashau" },
       { name: "Martin Mafuna", parent: "Maria Mafuna" },
       { name: "Masha Mafuna", parent: "Maria Mafuna" },
       { name: "Nosi Mafuna", parent: "Maria Mafuna" },
       { name: "Thamba Mafuna", parent: "Maria Mafuna" },
       { name: "Denga Mafuna", parent: "Maria Mafuna" },
-      { name: "Mbuelo Mashau", parent: "Tabimanagadzo Mashau" },
-      { name: "Ndivhuwo Mashau", parent: "Tabimanagadzo Mashau" },
+      { name: "Mbuelo Mashau", parent: "Vhanazwo Mashau" },
+      { name: "Ndivhuwo Mashau", parent: "Vhanazwo Mashau" },
       { name: "Khuliso Mashau", parent: "Vhanazwo Mashau" },
       { name: "Rofhiwa Mufamadi", parent: "Azwihangwisi Mufamadi" },
       { name: "Rolivhuwa Mufamadi", parent: "Azwihangwisi Mufamadi"},
-      { name: "Sello Mufamadi", parent: "Thinavhuwo Mufamadi" },
-      { name: "Zwothe Musisidwa", parent: "Thinavhuwo Mufamadi" }
+      { name: "Sello Mufamadi", parent: "Thinawanga Mufamadi" },
+      { name: "Zwothe Musisidwa", parent: "Thinawanga Mufamadi" }
     ]
   };
 
