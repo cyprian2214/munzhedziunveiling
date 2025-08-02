@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { MapPin } from "lucide-react";
+import { MapPin, Users } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import memorialBackground from "@/assets/memorial-background.jpg";
 import dovesBackground from "@/assets/doves-background.png";
@@ -103,7 +103,7 @@ const UnveilingPoster = () => {
                 </div>
               </div>
               
-              <div className="mt-3">
+              <div className="mt-3 space-y-2">
                 <Button
                   onClick={() => navigate("/map")}
                   variant="outline"
@@ -112,6 +112,16 @@ const UnveilingPoster = () => {
                 >
                   <MapPin className="h-4 w-4 mr-2" />
                   View Location on Map
+                </Button>
+                
+                <Button
+                  onClick={() => navigate("/family-tree")}
+                  variant="outline"
+                  size="sm"
+                  className="w-full bg-memorial/10 border-memorial text-memorial hover:bg-memorial hover:text-memorial-foreground"
+                >
+                  <Users className="h-4 w-4 mr-2" />
+                  View Family Tree
                 </Button>
               </div>
             </div>
