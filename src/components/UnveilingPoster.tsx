@@ -165,7 +165,12 @@ const UnveilingPoster = () => {
         </div>
         
         {/* Credit note */}
-        <div className="absolute bottom-4 right-4 text-xs text-muted-foreground opacity-60">
+        <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 text-xs text-muted-foreground opacity-60 hidden sm:block">
+          Made by Ndivhuwo Mashau
+        </div>
+        
+        {/* Mobile credit note */}
+        <div className="relative mt-4 text-center text-xs text-muted-foreground opacity-60 sm:hidden">
           Made by Ndivhuwo Mashau
         </div>
       </Card>
