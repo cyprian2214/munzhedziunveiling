@@ -6,19 +6,19 @@ import { Card } from "@/components/ui/card";
 const FamilyTreePage = () => {
   const familyData = {
     generation1: [
-      { name: "Munchedzi Mufamadi", type: "patriarch" },
+      { name: "Munzhedzi Mufamadi", type: "patriarch" },
       { name: "Shadrack Mufamadi", type: "patriarch" }
     ],
     generation2: [
       { name: "Constance Mashau", type: "parent" },
       { name: "Thomas Mashau", type: "parent" },
       { name: "Maria Mafuna", type: "parent" },
-      { name: "Tabimanagadzo Mashau", type: "parent" },
+      { name: "Tshimangadzo Mashau", type: "parent" },
       { name: "Vhanazwo Mashau", type: "parent" },
       { name: "Lawrence Mashau", type: "parent" },
       { name: "Rose Ndhlovu", type: "parent" },
       { name: "Azwihangwisi Mufamadi", type: "parent" },
-      { name: "Thinavhuwo Mufamadi", type: "parent" }
+      { name: "Thinawanga Mufamadi", type: "parent" }
     ],
     generation3: [
       { name: "Bryton Mashau", parent: "Constance Mashau" },
@@ -29,12 +29,13 @@ const FamilyTreePage = () => {
       { name: "Nosi Mafuna", parent: "Maria Mafuna" },
       { name: "Thamba Mafuna", parent: "Maria Mafuna" },
       { name: "Denga Mafuna", parent: "Maria Mafuna" },
-      { name: "Mouelo Mashau", parent: "Tabimanagadzo Mashau" },
+      { name: "Mbuelo Mashau", parent: "Tabimanagadzo Mashau" },
       { name: "Ndivhuwo Mashau", parent: "Tabimanagadzo Mashau" },
       { name: "Khuliso Mashau", parent: "Vhanazwo Mashau" },
       { name: "Rofhiwa Mufamadi", parent: "Azwihangwisi Mufamadi" },
+      { name: "Rolivhuwa Mufamadi", parent: "Azwihangwisi Mufamadi"},
       { name: "Sello Mufamadi", parent: "Thinavhuwo Mufamadi" },
-      { name: "Zwolhe Musaidwa", parent: "Thinavhuwo Mufamadi" }
+      { name: "Zwothe Musisidwa", parent: "Thinavhuwo Mufamadi" }
     ]
   };
 
